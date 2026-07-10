@@ -1,0 +1,1 @@
+act as a professional web developer and ui/ux designer, i'm developing a website about developer conference 2026. i have designed nav section, hero section, a guest section, and pricing table. which section should i code next. to make the site more premium and professional.
