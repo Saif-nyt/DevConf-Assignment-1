@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+}
+/* nav section start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+ul li a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+.btn{
+    padding: 15px 35px;
+    background-color:  #1E4ED8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;}
