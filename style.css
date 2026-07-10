@@ -1,36 +1,78 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px 20px;
 }
+
 /* nav section start */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
     padding: 20px;
 }
-ul{
+
+ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
 }
-ul li a{
+
+ul li a {
     margin: 0 10px;
     text-decoration: none;
     color: #333;
 }
-.btn{
+
+.btn {
     padding: 15px 35px;
-    background-color:  #1E4ED8;
+    background-color: #1E4ED8;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
     border: none;
-    cursor: pointer;}
+    cursor: pointer;
+}
+
+/* hero start */
+
+.hero {
+   background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("./assets/banner.jpg");
+    background-size: cover;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.hero-content h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+.hero-content .btn {
+   margin-top: 200px;
+font-size:18px;}
